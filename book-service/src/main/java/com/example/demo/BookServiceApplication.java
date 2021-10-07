@@ -9,7 +9,8 @@ public class BookServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BookServiceApplication.class, args);
-		ConfigurableApplicationContext ctx = SpringApplication.run(BookServiceApplication.class, args); ctx.close();
+		ConfigurableApplicationContext ctx = SpringApplication.run(BookServiceApplication.class, args); 
+		ctx.close();
 	
 	}
 
