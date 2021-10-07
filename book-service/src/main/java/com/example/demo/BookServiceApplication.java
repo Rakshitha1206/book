@@ -12,6 +12,8 @@ public class BookServiceApplication {
 		ConfigurableApplicationContext ctx = SpringApplication.run(BookServiceApplication.class, args); 
 		
 		System.out.println("Done");
+
+		System.out.println("ok");
 		
 		ctx.close();
 	
